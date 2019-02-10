@@ -1,4 +1,4 @@
-package com.eat.vo;
+package com.eat.domain;
 
 import lombok.Data;
 
@@ -13,10 +13,18 @@ import javax.persistence.Table;
 public class Member {
 
 	@Id
-	@Column(name="id")
-	private String id;
+	@Column(name="ID")
+	private Long id;
 
-	@Column(name="name")
+	@Column(name="NAME")
 	private String name;
+
+	@Column(name="ENTERDATE")
+	private String enterdate;
+
+	@Column(name="GRADECODE")
+	private String gradecode;
+
+	private String gradename;
 
 }
