@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfi
 public class EatApplication {
 
 	public static void main(String[] args) {
+		System.out.println("123123");
 		SpringApplication.run(EatApplication.class, args);
 	}
 
